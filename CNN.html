@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+	<link href="https://edition.cnn.com/favicon.ie9.ico" rel="Shortcut Icon" type="image/x-icon" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	 crossorigin="anonymous">
+
+	<style>
+		*{
+	margin: 0%;
+	padding: 0%;
+	font-family: CNN,"Helvetica Neue",Helvetica,Arial,Utkal,sans-serif;
+}
+
+
+
+@media (min-width:1100px){
+	.nav-menu1{
+		display: none;
+	}
+
+	.inner-navbar{
+		width: 1100px;
+	}
+
+	.inner-layout{
+			width: 1100px;
+	}
+
+	.row1{
+		width: 1100px;
+	}
+
+
+}
+
+
+@media (max-width:1100px){
+	.nav-menu1{
+		display: block;
+	}
+
+	.nav-menu3{
+		display: none;
+	}
+
+	.inner-navbar{
+		width: 100%;
+	}
+
+	.inner-layout{
+		width: 100%;
+	}
+
+	.row1{
+		width: 100%;
+	}
+	
+}
+
+
+
+/* navbar css starts from here */
+#navbar{
+	width: 100%;
+	height: 50px;
+	background-color: #0c0c0c;
+	color:white;
+	font-size: 15px;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.nav-menu li,.nav-menu2 li{
+	display: inline-block;
+	border-right: 1px solid #bfbfbf;
+	padding-right: 5px;
+	padding-left: 4px;
+}
+
+.inner-navbar{
+	margin:0px auto;
+	overflow: hidden;
+	
+}
+
+.nav-menu2{
+	float: right; 
+	padding: 16px 7px;
+
+}
+
+
+.nav-menu {
+	float: left;
+	padding: 16px 7px;
+		
+}
+
+
+
+.inner-navbar a{
+	text-decoration: none;
+	color:lightgray;
+	letter-spacing: 0.01em;
+	opacity: 0.8;
+}
+
+.inner-navbar a:hover {
+	opacity: 1;
+	color: white;
+}
+
+/* navbar css ends here */
+
+hr{
+	opacity: 0.7;
+}
+
+
+#container{
+	margin-top: 70px;
+	width: 100%;
+}
+
+
+
+#container a{
+	color: #0c0c0c;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+}
+
+#container a:hover{
+	color: #cb0000;
+}
+
+.inner-layout{
+	margin:0px auto;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.row1{
+	
+	margin:0px auto;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.firstcol {
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: 5px 10px;
+	width: 420px;
+	/* border: 1px solid black; */
+}
+
+.firstcol .heading{
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+colimage{
+	width: 100%;
+}
+
+
+.heading2{
+	margin: 10px 0;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.colnormaltxt{
+	margin: 5px 0;
+}
+
+
+.tophead{
+	/* height: 30px; */
+	padding : 5px;
+	background-color: lightgray;
+	color: #0c0c0c;
+	font-size: 17px;
+	font-weight: bolder;
+	width: 100%;
+
+
+}
+
+
+.seccol{
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin : 5px 10px;
+	width: 310px;
+}
+
+.styleimage{
+	position: relative;
+	width: 100%;
+}
+
+.styletext{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color:white;
+	opacity: 0.8;
+
+}
+
+.styleimage a{
+	font-size: 35px;
+}
+
+.textimage{
+	width: 40% ;
+	float: left;
+}
+
+
+.imagetext{
+	width: 60% ;
+	float: left;
+	box-sizing: border-box;
+	font-size: 20px; 
+	padding: 3px
+}
+
+
+.sepratortext{
+	font-size: 27px;
+	width: 21%;
+	float: left;
+}
+
+.sepratorline{
+	border: 2px solid lightgray;
+	width: 79%;
+	float: left;
+	box-sizing: border-box;
+	margin: 1px 0;
+}
+
+.thirdcol{
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin: 5px 10px;
+	width: 740px;
+}
+
+.videocontainer{
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 233px;
+}
+
+.fullwidth{
+	width: 100%;
+	height: 500px;;
+	background-color:#141414;
+}
+
+
+.sepratorline1{
+	border: 2px solid red;
+	width: 79%;
+	float: left;
+	box-sizing: border-box;
+	margin: 1px 0;
+}
+
+
+.fullwidth a{
+		color:white;
+		text-decoration: none;
+		display: inline-block;
+		width: 100%;
+}
+
+.fullwidth a:hover{
+	color: #cb0000;
+}
+
+
+.upperfooter{
+	width: 100%;
+	padding-top: 20px;
+	background: black;
+	margin-top: -10px;
+}
+
+.input1{
+	background: #262626;
+	padding: 10px;
+	width: 300px;
+	border: none;
+	float: right;
+	overflow: hidden;
+}
+.footercolumn{
+	box-sizing: border-box;
+	padding: 25px 0px;
+	float: left;
+	width: 183px;
+}
+.footercolumn ul li{
+	list-style: none;
+	padding: 5px;
+}
+.footercolumn ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+	
+	
+	
+	</style>
+
+
+
+
+
+	<title>CNN International - Breaking News, US News, World News and Video</title>
+
+
+
+
+
+
+</head>
+
+<body>
+	<div id="navbar">
+		<div class="inner-navbar">
+			<a href="index.html">
+				<img src="http://cdn.cnn.com/cnn/.e1mo/img/4.0/logos/CNN_logo_400x400.png" style="float: left;" height="60px" width="60px">
+			</a>
+			<div class="nav-menu3 nav-menu">
+				<ul>
+					<li><a href="">World</a></li>
+					<li><a href="">U.S. Politics</a></li>
+					<li><a href="">Money</a></li>
+					<li><a href="">Entertainment</a></li>
+					<li><a href="">Tech</a></li>
+					<li><a href="">Sport</a></li>
+					<li><a href="">Travel</a></li>
+					<li><a href="">Style</a></li>
+					<li><a href="">Health</a></li>
+					<li><a href="">Video</a></li>
+					<li style="border-right: none;"><a href="">VR</a></li>
+				</ul>
+			</div>
+
+			<div class="nav-menu1 nav-menu">
+				<ul>
+					<li style="border-right: none;"><a href="">Home</a></li>
+				</ul>
+			</div>
+
+
+			<div class="nav-menu2">
+				<ul>
+					<li style="border-right: none;"><a href="">International Edition +</a></li>
+					<li style="border-right: none;"><a href=""><i class="fa fa-search"></i></a></li>
+					<li style="border-right: none;"><a href=""><i class="fa fa-bars"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="container">
+		<div class="inner-layout">
+			<div class="row1">
+				<div class="firstcol">
+					<div class="heading"><a href="">Campaigners claim Nobel Peace Prize</a></div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005104251-04-nadia-murad-file-2016-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">Former Yazidis slave Nadia Murad shares Peace Prize with Denis Mukwege</a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> asdfhkjsdhfkj </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> asdfsadfsadfsadf</a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> asdfsfddsfsdf</a></div>
+				</div>
+
+				<div class="seccol">
+					<div class="tophead">Top Stories</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+
+
+				</div>
+
+				<div class="seccol">
+					<div class="tophead">In Focus</div>
+					<div class="heading2"><a href="">From ISIS slave to Nobel Peace Prize winner</a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> Who is Denis Mukwege, 'the man who mends women'? </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> Who is Denis Mukwege, 'the man who mends women'? </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> Who is Denis Mukwege, 'the man who mends women'? </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> Who is Denis Mukwege, 'the man who mends women'? </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> Who is Denis Mukwege, 'the man who mends women'? </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> Who is Denis Mukwege, 'the man who mends women'? </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> Who is Denis Mukwege, 'the man who mends women'? </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> Who is Denis Mukwege, 'the man who mends women'? </a></div>
+				</div>
+			</div>
+			<div class="row1" style="margin-top: 40px">
+				<div class="seccol">
+					<div class="tophead">Around The World</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+
+
+				</div>
+
+				<div class="firstcol">
+
+					<div class="tophead"><a href="">Featured</a></div>
+					<div class="styleimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181003164951-tvincabin-exlarge-tease.jpg"
+							 alt=""></a>
+						<div class="styletext"><a href="">The Best Airline</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+				</div>
+
+
+				<div class="seccol">
+					<div class="tophead">Spotlight</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+
+
+
+				</div>
+
+			</div>
+
+			<div class="row1" style="margin-top: 40px">
+
+				<div class="seccol">
+					<div class="tophead">Opinion</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">From ISIS slave to Nobel Peace Prize winner</a></div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+				</div>
+
+				<div class="firstcol">
+
+					<div class="styleimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181003164951-tvincabin-exlarge-tease.jpg"
+							 alt=""></a>
+						<div class="styletext"><a href="">The Best Airline</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+				</div>
+
+
+				<div class="seccol">
+					<div class="tophead">Take a closer look</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">From ISIS slave to Nobel Peace Prize winner</a></div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+				</div>
+			</div>
+
+			<div style="width: 100% ;margin-top: 40px;overflow: hidden;">
+				<div class=sepratortext>Featured Sections</div>
+				<div class="sepratorline" style="margin-top: 10px"></div>
+				<div class="sepratorline"></div>
+			</div>
+
+			<div class="row1" style="margin-top: 40px">
+				<div class="seccol" style="width: 340px">
+					<div class="tophead">Around The World</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+
+				</div>
+
+				<div class="seccol" style="width: 340px">
+					<div class="tophead">Around The World</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+
+				</div>
+				<div class="seccol" style="width: 340px">
+					<div class="tophead">Around The World</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+				</div>
+
+			</div>
+
+
+			<div class="row1" style="margin-top: 40px">
+				<div class="seccol" style="width: 340px">
+					<div class="tophead">Around The World</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+
+				</div>
+
+				<div class="seccol" style="width: 340px">
+					<div class="tophead">Around The World</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+
+				</div>
+				<div class="seccol" style="width: 340px">
+					<div class="tophead">Around The World</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+					<div class="colnormaltxt"><a href=""> ISIS 'hijack Islam' to rape women </a></div>
+					<hr>
+				</div>
+
+			</div>
+
+			<div style="width: 100% ;margin-top: 40px;overflow: hidden;">
+				<div class=sepratortext>Featured Sections</div>
+				<div class="sepratorline" style="margin-top: 10px"></div>
+				<div class="sepratorline"></div>
+			</div>
+
+			<div class="row1">
+				<div class="thirdcol">
+					<div class="tophead">
+						Videos You Should See
+					</div>
+
+
+					<div class="videocontainer">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+					<div class="videocontainer" style="margin: 0 20px">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+					<div class="videocontainer">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+					<div class="videocontainer">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+					<div class="videocontainer" style="margin: 0 20px">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+					<div class="videocontainer">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+					<div class="videocontainer">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+					<div class="videocontainer" style="margin: 0 20px">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+					<div class="videocontainer">
+						<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+								 alt=""></a></div>
+						<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+					</div>
+
+				</div>
+
+				<div class="seccol">
+					<div class="tophead">Trending</div>
+					<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+							 alt=""></a></div>
+					<div class="heading2"><a href="">From ISIS slave to Nobel Peace Prize winner</a></div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+
+					<div style="width: 100% ;border-top: 1px solid lightgray;overflow: hidden;">
+						<div class="textimage"><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181004142901-tom-sachs-frieze-small-tease.jpg"
+							 alt=""></div>
+						<div class="imagetext" style="font-size: 15px"><a href="">Get a Swiss 'passport' in London for €20</a></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+	</div>
+	<div class="fullwidth">
+		<div class="inner-layout">
+			<div style="width: 100% ;margin-top: 20px;overflow: hidden;">
+				<div class=sepratortext style="color:white">Featured Sections</div>
+				<div class="sepratorline1" style="margin-top: 10px"></div>
+				<div class="sepratorline1"></div>
+			</div>
+
+			<div class="thirdcol">
+				<div class="styleimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/171121092548-03-putin-assad-1121-restricted-overlay-tease.jpg"
+						 alt=""></a>
+					<div class="styletext" style="background-color: black ;padding-left: 7px"><a href="">The Best Airline</a></div>
+				</div>
+
+			</div>
+
+
+			<div class="videocontainer" style="margin: 0 20px ; width: 300px;">
+				<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+						 alt=""></a></div>
+				<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+			</div>
+
+			<div class="videocontainer" style="margin: 0 20px ; width: 300px;">
+				<div class="colimage"><a href=""><img width="100%" src="https://cdn.cnn.com/cnnnext/dam/assets/181005133444-01-meng-hongwei-file-restricted-exlarge-tease.jpg"
+						 alt=""></a></div>
+				<div class="heading2"><a href="">India risks US sanctions if it makes $5 billion defense deal with Russia</a></div>
+
+			</div>
+
+		</div>
+
+
+		<div class="upperfooter">
+			<div class="inner-layout">
+				<input placeholder="CNN Search..." class="input1" type="text">
+				<div class="inner-layout">
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">World</a></li>
+							<li><a href="">U.S.</a></li>
+							<li><a href="">Africa</a></li>
+							<li><a href="">America</a></li>
+							<li><a href="">Asia</a></li>
+							<li><a href="">Australia</a></li>
+							<li><a href="">China</a></li>
+							<li><a href="">Europe</a></li>
+							<li><a href="">Middle East</a></li>
+							<li><a href="">UK</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">Politics</a></li>
+							<li><a href="">45</a></li>
+							<li><a href="">Congress</a></li>
+							<li><a href="">Supreme Court</a></li>
+							<li><a href="">2018</a></li>
+							<li><a href="">Key Races</a></li>
+							<li><a href="">Primary Results</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">Business</a></li>
+							<li><a href="">Markets</a></li>
+							<li><a href="">Tech</a></li>
+							<li><a href="">Media</a></li>
+							<li><a href="">Success</a></li>
+							<li><a href="">Video</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">entaertainment</a></li>
+							<li><a href="">Stars</a></li>
+							<li><a href="">Screen</a></li>
+							<li><a href="">Binge</a></li>
+							<li><a href="">Culture</a></li>
+							<li><a href="">Media</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">Tech</a></li>
+							<li><a href="">Inovate</a></li>
+							<li><a href="">Gadget</a></li>
+							<li><a href="">Mission: Ahead</a></li>
+							<li><a href="">Upstarts</a></li>
+							<li><a href="">Innovative Cities</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">Sport</a></li>
+							<li><a href="">Football</a></li>
+							<li><a href="">Tennis</a></li>
+							<li><a href="">Equestrian</a></li>
+							<li><a href="">Golf</a></li>
+							<li><a href="">Judo</a></li>
+							<li><a href="">Horse Racing</a></li>
+							<li><a href="">Motorsport</a></li>
+							<li><a href="">Sailing</a></li>
+							<li><a href="">Rugby</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">travel</a></li>
+							<li><a href="">Destinations</a></li>
+							<li><a href="">Food & Drink</a></li>
+							<li><a href="">Play</a></li>
+							<li><a href="">Stay</a></li>
+							<li><a href="">Videos</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">style</a></li>
+							<li><a href="">Arts</a></li>
+							<li><a href="">Design</a></li>
+							<li><a href="">Fashion</a></li>
+							<li><a href="">Architecture</a></li>
+							<li><a href="">Luxury</a></li>
+							<li><a href="">Autos</a></li>
+							<li><a href="">Video</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">health</a></li>
+							<li><a href="">Food</a></li>
+							<li><a href="">Fitness</a></li>
+							<li><a href="">Wellness</a></li>
+							<li><a href="">Parenting</a></li>
+							<li><a href="">Vital Signs</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">Features</a></li>
+							<li><a href="">Freedom Project</a></li>
+							<li><a href="">Impact Your World</a></li>
+							<li><a href="">Inside Africa</a></li>
+							<li><a href="">2 degrees</a></li>
+							<li><a href="">CNN Heroes</a></li>
+							<li><a href="">All Features</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">Video</a></li>
+							<li><a href="">Video news</a></li>
+							<li><a href="">Feature shows</a></li>
+							<li><a href="">HLN</a></li>
+							<li><a href="">TV shows</a></li>
+							<li><a href="">TV schedule</a></li>
+							<li><a href="">Faces of CNN Worldwide</a></li>
+							<li><a href="">CNNVR</a></li>
+						</ul>
+					</div>
+					<div class="footercolumn">
+						<ul>
+							<li><a style="font-size: 22px" href="">More...</a></li>
+							<li><a href="">Weather</a></li>
+							<li><a href="">CNN Profile</a></li>
+							<li><a href="">Leadership</a></li>
+							<li><a href="">Pressroom</a></li>
+							<li><a href="">Partner sites</a></li>
+							<li><a href="">Work for CNN</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+	</div>
+
+</body>
+
+</html>
